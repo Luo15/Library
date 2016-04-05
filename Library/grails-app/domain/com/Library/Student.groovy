@@ -4,7 +4,7 @@ class Student {
                String name
                String email
                String studentId
-               String course
+               Course course
 
                String toString(){"$name,$email,$studentId"}
 
