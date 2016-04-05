@@ -6,6 +6,7 @@ class Student {
                String studentId
                Course course
 
+               static hasMany=[books:Book]
                String toString(){"$name,$email,$studentId"}
 
     static constraints = {

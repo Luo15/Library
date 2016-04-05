@@ -6,7 +6,8 @@ class Librarian {
                  String userName
                  String password
                  String telephone
-                  
+
+                 static belongTo=Library                  
                  String toString(){"$name,$email,$telephone"}
 
     static constraints = {
