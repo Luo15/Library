@@ -11,7 +11,7 @@ class Book {
            
             static belongTo=Student
             
-            String toString(){"$title,$isbn"}
+            String toString(){"$title,$author,$isbn"}
 
     static constraints = {
             title()

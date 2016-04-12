@@ -16,6 +16,6 @@ class LibrarySpec extends Specification {
     }
 
     void "test something"() {
-        
+        //Code omitted
     }
 }
