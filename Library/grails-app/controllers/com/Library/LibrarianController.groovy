@@ -2,7 +2,9 @@ package com.Library
 
 class LibrarianController {
 
-    def scaffold = Librarian def login(){
+    def scaffold = Librarian 
+        
+        def login(){
         if(params.cName)
 
         return [cName:params.cName,aName:params.aName]
@@ -23,7 +25,7 @@ class LibrarianController {
           else
 
             redirect controller:'library',action:'index'}
-}    
+   
           else{
 
             flash.message = "invalid username and password."
@@ -39,3 +41,4 @@ class LibrarianController {
           redirect(url:'/')}
 
    }
+}
